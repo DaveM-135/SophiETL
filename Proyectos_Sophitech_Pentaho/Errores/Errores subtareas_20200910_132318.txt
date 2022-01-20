@@ -1,0 +1,4 @@
+Subtarea
+Ajustes MicroStrategy                                                                               
+Configuración y validación de conexiones (odbc)                                                     
+Validación de entregables de desarrollo software                                                    

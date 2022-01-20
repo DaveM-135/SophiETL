@@ -1,0 +1,11 @@
+Subtarea
+Ajustes documentación                                                                               
+Ajustes MicroStrategy                                                                               
+Construcción MicroStrategy                                                                          
+Diseño UX                                                                                           
+Documentación DWH                                                                                   
+Documentación Modelo de Datos                                                                       
+Kick Off del proyecto                                                                               
+Validación de entregables de desarrollo ETL                                                         
+Validación de entregables de desarrollo microstrategy                                               
+Validación de entregables de desarrollo software                                                    
