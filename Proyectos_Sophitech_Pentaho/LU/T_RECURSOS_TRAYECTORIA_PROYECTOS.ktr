@@ -437,13 +437,13 @@
   </notepads>
   <connection>
     <name>DWH_SOPHITECH</name>
-    <server>35.185.73.193</server>
+    <server>34.132.85.42</server>
     <type>MSSQL</type>
     <access>Native</access>
     <database>DWH_PSophitech</database>
     <port>1433</port>
-    <username>dbetl</username>
-    <password>Encrypted 647768328fc1c19724d5a7acff47f53988c9f782</password>
+    <username>SA</username>
+    <password>Encrypted 2be98afc86aa7f2a6a915ac218dc7ee85</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -700,6 +700,57 @@
     </remotesteps>
     <GUI>
       <xloc>624</xloc>
+      <yloc>48</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Replace in string</name>
+    <type>ReplaceString</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <in_stream_name>fec_fin_participacion</in_stream_name>
+        <out_stream_name>id_dia_fin_participacion</out_stream_name>
+        <use_regex>no</use_regex>
+        <replace_string>-</replace_string>
+        <replace_by_string/>
+        <set_empty_string>N</set_empty_string>
+        <replace_field_by_string/>
+        <whole_word>no</whole_word>
+        <case_sensitive>no</case_sensitive>
+        <is_unicode>no</is_unicode>
+      </field>
+      <field>
+        <in_stream_name>fec_inicio_participacion</in_stream_name>
+        <out_stream_name>id_dia_inicio_participacion</out_stream_name>
+        <use_regex>no</use_regex>
+        <replace_string>-</replace_string>
+        <replace_by_string/>
+        <set_empty_string>N</set_empty_string>
+        <replace_field_by_string/>
+        <whole_word>no</whole_word>
+        <case_sensitive>no</case_sensitive>
+        <is_unicode>no</is_unicode>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>400</xloc>
       <yloc>48</yloc>
       <draw>Y</draw>
     </GUI>
@@ -962,57 +1013,6 @@
     </remotesteps>
     <GUI>
       <xloc>288</xloc>
-      <yloc>48</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Replace in string</name>
-    <type>ReplaceString</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <in_stream_name>fec_fin_participacion</in_stream_name>
-        <out_stream_name>id_dia_fin_participacion</out_stream_name>
-        <use_regex>no</use_regex>
-        <replace_string>-</replace_string>
-        <replace_by_string/>
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-        <is_unicode>no</is_unicode>
-      </field>
-      <field>
-        <in_stream_name>fec_inicio_participacion</in_stream_name>
-        <out_stream_name>id_dia_inicio_participacion</out_stream_name>
-        <use_regex>no</use_regex>
-        <replace_string>-</replace_string>
-        <replace_by_string/>
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-        <is_unicode>no</is_unicode>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>400</xloc>
       <yloc>48</yloc>
       <draw>Y</draw>
     </GUI>

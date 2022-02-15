@@ -437,13 +437,13 @@
   </notepads>
   <connection>
     <name>DWH_PSOPHITECH</name>
-    <server>35.185.73.193</server>
+    <server>34.132.85.42</server>
     <type>MSSQL</type>
     <access>Native</access>
     <database>DWH_PSophitech</database>
     <port>1433</port>
-    <username>dbetl</username>
-    <password>Encrypted 647768328fc1c19724d5a7acff47f53988c9f782</password>
+    <username>SA</username>
+    <password>Encrypted 2be98afc86aa7f2a6a915ac218dc7ee85</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -813,15 +813,12 @@ FROM dbo.STG_respuesta_clima
     <fields>
       <field>
         <name>cod_respuesta</name>
-        <rename/>
       </field>
       <field>
         <name>ruta_imagen</name>
-        <rename/>
       </field>
       <field>
         <name>desc_imagen_https</name>
-        <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
       <meta>

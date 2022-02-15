@@ -458,13 +458,13 @@
   </notepads>
   <connection>
     <name>DWH_PSOPHITECH</name>
-    <server>35.185.73.193</server>
+    <server>34.132.85.42</server>
     <type>MSSQL</type>
     <access>Native</access>
     <database>DWH_PSophitech</database>
     <port>1433</port>
-    <username>dbetl</username>
-    <password>Encrypted 647768328fc1c19724d5a7acff47f53988c9f782</password>
+    <username>SA</username>
+    <password>Encrypted 2be98afc86aa7f2a6a915ac218dc7ee85</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -513,13 +513,13 @@
   </connection>
   <connection>
     <name>TRA_PSOPHITECH</name>
-    <server>35.185.73.193</server>
+    <server>34.132.85.42</server>
     <type>MSSQL</type>
     <access>Native</access>
     <database>TB_PlSophitech</database>
     <port>1433</port>
-    <username>dbtrans</username>
-    <password>Encrypted 747273328fc4fa825cedae97f851ef38fec5f6d7</password>
+    <username>SA</username>
+    <password>Encrypted 2be98afc86aa7f2a6a915ac218dc7ee85</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>

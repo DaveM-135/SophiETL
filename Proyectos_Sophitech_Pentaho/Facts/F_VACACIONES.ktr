@@ -430,20 +430,20 @@
     <created_date>2020/12/07 18:51:32.634</created_date>
     <modified_user>-</modified_user>
     <modified_date>2020/12/07 18:51:32.634</modified_date>
-    <key_for_session_key/>
+    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
   </notepads>
   <connection>
     <name>DWH_PSOPHITECH</name>
-    <server>35.185.73.193</server>
+    <server>34.132.85.42</server>
     <type>MSSQL</type>
     <access>Native</access>
     <database>DWH_PSophitech</database>
     <port>1433</port>
-    <username>dbetl</username>
-    <password>Encrypted 647768328fc1c19724d5a7acff47f53988c9f782</password>
+    <username>SA</username>
+    <password>Encrypted 2be98afc86aa7f2a6a915ac218dc7ee85</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -508,8 +508,8 @@
     </hop>
   </order>
   <step>
-    <name>STG_Recurso_vacaciones</name>
-    <type>TableInput</type>
+    <name>F_vacaciones</name>
+    <type>InsertUpdate</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -519,22 +519,53 @@
       <schema_name/>
     </partitioning>
     <connection>DWH_PSOPHITECH</connection>
-    <sql>SELECT
-  cod_recurso
-, val_acumulado
-, val_recuperado
-, val_contrato
-, val_total
-, val_aprobado
-, val_disponibles
-, val_periodo
-FROM STG_Recurso_vacaciones
-</sql>
-    <limit>0</limit>
-    <lookup/>
-    <execute_each_row>N</execute_each_row>
-    <variables_active>N</variables_active>
-    <lazy_conversion_active>N</lazy_conversion_active>
+    <commit>100</commit>
+    <update_bypassed>N</update_bypassed>
+    <lookup>
+      <schema/>
+      <table>F_vacaciones</table>
+      <key>
+        <name>id_recurso</name>
+        <field>id_recurso</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <value>
+        <name>id_recurso</name>
+        <rename>id_recurso</rename>
+        <update>N</update>
+      </value>
+      <value>
+        <name>val_hrs_vac_acumulado</name>
+        <rename>val_hrs_vac_acumulado</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>val_hrs_recuperadas</name>
+        <rename>val_hrs_recuperadas</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>val_hrs_contrato</name>
+        <rename>val_hrs_contrato</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>val_hrs_aprobadas</name>
+        <rename>val_hrs_aprobadas</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>val_hrs_disponibles</name>
+        <rename>val_hrs_disponibles</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>id_año</name>
+        <rename>val_periodo</rename>
+        <update>N</update>
+      </value>
+    </lookup>
     <attributes/>
     <cluster_schema/>
     <remotesteps>
@@ -544,7 +575,7 @@ FROM STG_Recurso_vacaciones
       </output>
     </remotesteps>
     <GUI>
-      <xloc>192</xloc>
+      <xloc>792</xloc>
       <yloc>112</yloc>
       <draw>Y</draw>
     </GUI>
@@ -615,6 +646,50 @@ FROM STG_Recurso_vacaciones
     </GUI>
   </step>
   <step>
+    <name>STG_Recurso_vacaciones</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>DWH_PSOPHITECH</connection>
+    <sql>SELECT
+  cod_recurso
+, val_acumulado
+, val_recuperado
+, val_contrato
+, val_total
+, val_aprobado
+, val_disponibles
+, val_periodo
+FROM STG_Recurso_vacaciones
+</sql>
+    <limit>0</limit>
+    <lookup/>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <cached_row_meta_active>N</cached_row_meta_active>
+    <row-meta/>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>192</xloc>
+      <yloc>112</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
     <name>Select values</name>
     <type>SelectValues</type>
     <description/>
@@ -632,27 +707,21 @@ FROM STG_Recurso_vacaciones
       </field>
       <field>
         <name>val_hrs_vac_acumulado</name>
-        <rename/>
       </field>
       <field>
         <name>val_hrs_recuperadas</name>
-        <rename/>
       </field>
       <field>
         <name>val_hrs_contrato</name>
-        <rename/>
       </field>
       <field>
         <name>val_hrs_aprobadas</name>
-        <rename/>
       </field>
       <field>
         <name>val_hrs_disponibles</name>
-        <rename/>
       </field>
       <field>
         <name>val_periodo</name>
-        <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
     </fields>
@@ -666,79 +735,6 @@ FROM STG_Recurso_vacaciones
     </remotesteps>
     <GUI>
       <xloc>592</xloc>
-      <yloc>112</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>F_vacaciones</name>
-    <type>InsertUpdate</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <connection>DWH_PSOPHITECH</connection>
-    <commit>100</commit>
-    <update_bypassed>N</update_bypassed>
-    <lookup>
-      <schema/>
-      <table>F_vacaciones</table>
-      <key>
-        <name>id_recurso</name>
-        <field>id_recurso</field>
-        <condition>=</condition>
-        <name2/>
-      </key>
-      <value>
-        <name>id_recurso</name>
-        <rename>id_recurso</rename>
-        <update>N</update>
-      </value>
-      <value>
-        <name>val_hrs_vac_acumulado</name>
-        <rename>val_hrs_vac_acumulado</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>val_hrs_recuperadas</name>
-        <rename>val_hrs_recuperadas</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>val_hrs_contrato</name>
-        <rename>val_hrs_contrato</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>val_hrs_aprobadas</name>
-        <rename>val_hrs_aprobadas</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>val_hrs_disponibles</name>
-        <rename>val_hrs_disponibles</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>id_año</name>
-        <rename>val_periodo</rename>
-        <update>N</update>
-      </value>
-    </lookup>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>792</xloc>
       <yloc>112</yloc>
       <draw>Y</draw>
     </GUI>

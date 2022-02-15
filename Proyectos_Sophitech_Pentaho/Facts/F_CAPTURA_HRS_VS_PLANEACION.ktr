@@ -448,13 +448,13 @@
   </notepads>
   <connection>
     <name>DWH_PSOPHITECH</name>
-    <server>35.185.73.193</server>
+    <server>34.132.85.42</server>
     <type>MSSQL</type>
     <access>Native</access>
     <database>DWH_PSophitech</database>
     <port>1433</port>
-    <username>dbetl</username>
-    <password>Encrypted 647768328fc1c19724d5a7acff47f53988c9f782</password>
+    <username>SA</username>
+    <password>Encrypted 2be98afc86aa7f2a6a915ac218dc7ee85</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -4423,155 +4423,117 @@ FROM F_planeado_vs_reales
     <fields>
       <field>
         <name>id_proyecto_cap</name>
-        <rename/>
       </field>
       <field>
         <name>id_dia_plan</name>
-        <rename/>
       </field>
       <field>
         <name>id_proyecto_plan</name>
-        <rename/>
       </field>
       <field>
         <name>id_subtareas_plan</name>
-        <rename/>
       </field>
       <field>
         <name>id_recurso_plan</name>
-        <rename/>
       </field>
       <field>
         <name>fec_inicio_cap_max</name>
-        <rename/>
       </field>
       <field>
         <name>fec_inicio_plan</name>
-        <rename/>
       </field>
       <field>
         <name>fec_fin_plan</name>
-        <rename/>
       </field>
       <field>
         <name>val_duracion_horas_plan</name>
-        <rename/>
       </field>
       <field>
         <name>imp_costo_recurso_plan</name>
-        <rename/>
       </field>
       <field>
         <name>imp_costo_planeado_plan</name>
-        <rename/>
       </field>
       <field>
         <name>val_billable_plan</name>
-        <rename/>
       </field>
       <field>
         <name>val_planeada_plan</name>
-        <rename/>
       </field>
       <field>
         <name>val_productivas_plan</name>
-        <rename/>
       </field>
       <field>
         <name>val_dias_habiles_plan</name>
-        <rename/>
       </field>
       <field>
         <name>fec_fin_concat_plan</name>
-        <rename/>
       </field>
       <field>
         <name>id_estatus_proyecto_plan</name>
-        <rename/>
       </field>
       <field>
         <name>Fecha</name>
-        <rename/>
       </field>
       <field>
         <name>id_dia</name>
-        <rename/>
       </field>
       <field>
         <name>val_habil</name>
-        <rename/>
       </field>
       <field>
         <name>Registro</name>
-        <rename/>
       </field>
       <field>
         <name>Dias_hasta_fecha</name>
-        <rename/>
       </field>
       <field>
         <name>id_recurso_cap</name>
-        <rename/>
       </field>
       <field>
         <name>id_proyecto_cap_1</name>
-        <rename/>
       </field>
       <field>
         <name>id_subtareas_cap</name>
-        <rename/>
       </field>
       <field>
         <name>fec_inicio_cap_min</name>
-        <rename/>
       </field>
       <field>
         <name>val_duracion_hrs_captura_cap_sum</name>
-        <rename/>
       </field>
       <field>
         <name>val_hrs_aprobadas_lider_cap_sum</name>
-        <rename/>
       </field>
       <field>
         <name>imp_costo_capturado_cap_sum</name>
-        <rename/>
       </field>
       <field>
         <name>imp_costo_real_cap_sum</name>
-        <rename/>
       </field>
       <field>
         <name>val_planeada_cap_max</name>
-        <rename/>
       </field>
       <field>
         <name>val_billable_cap_max</name>
-        <rename/>
       </field>
       <field>
         <name>id_dia_cap_max</name>
-        <rename/>
       </field>
       <field>
         <name>id_dia_cap_min</name>
-        <rename/>
       </field>
       <field>
         <name>imp_costo_recurso_cap_max</name>
-        <rename/>
       </field>
       <field>
         <name>id_clasificacion_presupuesto</name>
-        <rename/>
       </field>
       <field>
         <name>id_estatus_proyecto_cap</name>
-        <rename/>
       </field>
       <field>
         <name>fec_fin_captura_o</name>
-        <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
     </fields>
@@ -4603,155 +4565,117 @@ FROM F_planeado_vs_reales
     <fields>
       <field>
         <name>id_proyecto_cap</name>
-        <rename/>
       </field>
       <field>
         <name>id_dia_plan</name>
-        <rename/>
       </field>
       <field>
         <name>id_proyecto_plan</name>
-        <rename/>
       </field>
       <field>
         <name>id_subtareas_plan</name>
-        <rename/>
       </field>
       <field>
         <name>id_recurso_plan</name>
-        <rename/>
       </field>
       <field>
         <name>fec_inicio_cap_max</name>
-        <rename/>
       </field>
       <field>
         <name>fec_inicio_plan</name>
-        <rename/>
       </field>
       <field>
         <name>fec_fin_plan</name>
-        <rename/>
       </field>
       <field>
         <name>val_duracion_horas_plan</name>
-        <rename/>
       </field>
       <field>
         <name>imp_costo_recurso_plan</name>
-        <rename/>
       </field>
       <field>
         <name>imp_costo_planeado_plan</name>
-        <rename/>
       </field>
       <field>
         <name>val_billable_plan</name>
-        <rename/>
       </field>
       <field>
         <name>val_planeada_plan</name>
-        <rename/>
       </field>
       <field>
         <name>val_productivas_plan</name>
-        <rename/>
       </field>
       <field>
         <name>val_dias_habiles_plan</name>
-        <rename/>
       </field>
       <field>
         <name>fec_fin_concat_plan</name>
-        <rename/>
       </field>
       <field>
         <name>id_estatus_proyecto_plan</name>
-        <rename/>
       </field>
       <field>
         <name>Fecha</name>
-        <rename/>
       </field>
       <field>
         <name>id_dia</name>
-        <rename/>
       </field>
       <field>
         <name>val_habil</name>
-        <rename/>
       </field>
       <field>
         <name>Registro</name>
-        <rename/>
       </field>
       <field>
         <name>Dias_hasta_fecha</name>
-        <rename/>
       </field>
       <field>
         <name>id_recurso_cap</name>
-        <rename/>
       </field>
       <field>
         <name>id_proyecto_cap_1</name>
-        <rename/>
       </field>
       <field>
         <name>id_subtareas_cap</name>
-        <rename/>
       </field>
       <field>
         <name>fec_inicio_cap_min</name>
-        <rename/>
       </field>
       <field>
         <name>val_duracion_hrs_captura_cap_sum</name>
-        <rename/>
       </field>
       <field>
         <name>val_hrs_aprobadas_lider_cap_sum</name>
-        <rename/>
       </field>
       <field>
         <name>imp_costo_capturado_cap_sum</name>
-        <rename/>
       </field>
       <field>
         <name>imp_costo_real_cap_sum</name>
-        <rename/>
       </field>
       <field>
         <name>val_planeada_cap_max</name>
-        <rename/>
       </field>
       <field>
         <name>val_billable_cap_max</name>
-        <rename/>
       </field>
       <field>
         <name>id_dia_cap_max</name>
-        <rename/>
       </field>
       <field>
         <name>id_dia_cap_min</name>
-        <rename/>
       </field>
       <field>
         <name>imp_costo_recurso_cap_max</name>
-        <rename/>
       </field>
       <field>
         <name>id_clasificacion_presupuesto</name>
-        <rename/>
       </field>
       <field>
         <name>id_estatus_proyecto_cap</name>
-        <rename/>
       </field>
       <field>
         <name>fec_fin_captura_o</name>
-        <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
       <meta>
@@ -5429,155 +5353,117 @@ FROM F_planeado_vs_reales
     <fields>
       <field>
         <name>id_proyecto_cap</name>
-        <rename/>
       </field>
       <field>
         <name>id_dia_plan</name>
-        <rename/>
       </field>
       <field>
         <name>id_proyecto_plan</name>
-        <rename/>
       </field>
       <field>
         <name>id_subtareas_plan</name>
-        <rename/>
       </field>
       <field>
         <name>id_recurso_plan</name>
-        <rename/>
       </field>
       <field>
         <name>fec_inicio_cap_max</name>
-        <rename/>
       </field>
       <field>
         <name>fec_inicio_plan</name>
-        <rename/>
       </field>
       <field>
         <name>fec_fin_plan</name>
-        <rename/>
       </field>
       <field>
         <name>val_duracion_horas_plan</name>
-        <rename/>
       </field>
       <field>
         <name>imp_costo_recurso_plan</name>
-        <rename/>
       </field>
       <field>
         <name>imp_costo_planeado_plan</name>
-        <rename/>
       </field>
       <field>
         <name>val_billable_plan</name>
-        <rename/>
       </field>
       <field>
         <name>val_planeada_plan</name>
-        <rename/>
       </field>
       <field>
         <name>val_productivas_plan</name>
-        <rename/>
       </field>
       <field>
         <name>val_dias_habiles_plan</name>
-        <rename/>
       </field>
       <field>
         <name>fec_fin_concat_plan</name>
-        <rename/>
       </field>
       <field>
         <name>id_estatus_proyecto_plan</name>
-        <rename/>
       </field>
       <field>
         <name>Fecha</name>
-        <rename/>
       </field>
       <field>
         <name>id_dia</name>
-        <rename/>
       </field>
       <field>
         <name>val_habil</name>
-        <rename/>
       </field>
       <field>
         <name>Registro</name>
-        <rename/>
       </field>
       <field>
         <name>Dias_hasta_fecha</name>
-        <rename/>
       </field>
       <field>
         <name>id_recurso_cap</name>
-        <rename/>
       </field>
       <field>
         <name>id_proyecto_cap_1</name>
-        <rename/>
       </field>
       <field>
         <name>id_subtareas_cap</name>
-        <rename/>
       </field>
       <field>
         <name>fec_inicio_cap_min</name>
-        <rename/>
       </field>
       <field>
         <name>val_duracion_hrs_captura_cap_sum</name>
-        <rename/>
       </field>
       <field>
         <name>val_hrs_aprobadas_lider_cap_sum</name>
-        <rename/>
       </field>
       <field>
         <name>imp_costo_capturado_cap_sum</name>
-        <rename/>
       </field>
       <field>
         <name>imp_costo_real_cap_sum</name>
-        <rename/>
       </field>
       <field>
         <name>val_planeada_cap_max</name>
-        <rename/>
       </field>
       <field>
         <name>val_billable_cap_max</name>
-        <rename/>
       </field>
       <field>
         <name>id_dia_cap_max</name>
-        <rename/>
       </field>
       <field>
         <name>id_dia_cap_min</name>
-        <rename/>
       </field>
       <field>
         <name>imp_costo_recurso_cap_max</name>
-        <rename/>
       </field>
       <field>
         <name>id_clasificacion_presupuesto</name>
-        <rename/>
       </field>
       <field>
         <name>id_estatus_proyecto_cap</name>
-        <rename/>
       </field>
       <field>
         <name>fec_fin_captura_o</name>
-        <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
       <meta>

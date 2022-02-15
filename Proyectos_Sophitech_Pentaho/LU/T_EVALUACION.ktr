@@ -438,13 +438,13 @@
   </notepads>
   <connection>
     <name>DWH_PSOPHITECH</name>
-    <server>35.185.73.193</server>
+    <server>34.132.85.42</server>
     <type>MSSQL</type>
     <access>Native</access>
     <database>DWH_PSophitech</database>
     <port>1433</port>
-    <username>dbetl</username>
-    <password>Encrypted 647768328fc1c19724d5a7acff47f53988c9f782</password>
+    <username>SA</username>
+    <password>Encrypted 2be98afc86aa7f2a6a915ac218dc7ee85</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -503,6 +503,71 @@
       <enabled>Y</enabled>
     </hop>
   </order>
+  <step>
+    <name>LU_evaluacion</name>
+    <type>InsertUpdate</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>DWH_PSOPHITECH</connection>
+    <commit>100</commit>
+    <update_bypassed>N</update_bypassed>
+    <lookup>
+      <schema>dbo</schema>
+      <table>LU_evaluacion</table>
+      <key>
+        <name>cod_evaluacion</name>
+        <field>id_evaluacion</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <key>
+        <name>desc_evaluacion</name>
+        <field>desc_evaluacion</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <key>
+        <name>ponderacion</name>
+        <field>ponderacion</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <value>
+        <name>id_evaluacion</name>
+        <rename>cod_evaluacion</rename>
+        <update>N</update>
+      </value>
+      <value>
+        <name>desc_evaluacion</name>
+        <rename>desc_evaluacion</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>ponderacion</name>
+        <rename>ponderacion</rename>
+        <update>Y</update>
+      </value>
+    </lookup>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>352</xloc>
+      <yloc>32</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
   <step>
     <name>STG_evaluacion</name>
     <type>TableInput</type>
@@ -643,71 +708,6 @@
     </remotesteps>
     <GUI>
       <xloc>224</xloc>
-      <yloc>32</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>LU_evaluacion</name>
-    <type>InsertUpdate</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <connection>DWH_PSOPHITECH</connection>
-    <commit>100</commit>
-    <update_bypassed>N</update_bypassed>
-    <lookup>
-      <schema>dbo</schema>
-      <table>LU_evaluacion</table>
-      <key>
-        <name>cod_evaluacion</name>
-        <field>id_evaluacion</field>
-        <condition>=</condition>
-        <name2/>
-      </key>
-      <key>
-        <name>desc_evaluacion</name>
-        <field>desc_evaluacion</field>
-        <condition>=</condition>
-        <name2/>
-      </key>
-      <key>
-        <name>ponderacion</name>
-        <field>ponderacion</field>
-        <condition>=</condition>
-        <name2/>
-      </key>
-      <value>
-        <name>id_evaluacion</name>
-        <rename>cod_evaluacion</rename>
-        <update>N</update>
-      </value>
-      <value>
-        <name>desc_evaluacion</name>
-        <rename>desc_evaluacion</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>ponderacion</name>
-        <rename>ponderacion</rename>
-        <update>Y</update>
-      </value>
-    </lookup>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>352</xloc>
       <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
