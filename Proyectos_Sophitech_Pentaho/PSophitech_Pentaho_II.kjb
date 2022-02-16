@@ -482,7 +482,7 @@
       <server>smtp.gmail.com</server>
       <port>465</port>
       <destination>david.moreno@sophitech.mx</destination>
-      <destinationCc>omar.bonilla@sophitech.mx</destinationCc>
+      <destinationCc>omar.bonilla@sophitech.mx alejandra.zuniga@sophitech.mx</destinationCc>
       <destinationBCc/>
       <replyto>soporte@sophitech.mx</replyto>
       <replytoname>Soporte Sophitech</replytoname>
@@ -531,7 +531,7 @@ Saludos!!!.</comment>
       <server>smtp.gmail.com</server>
       <port>465</port>
       <destination>david.moreno@sophitech.mx</destination>
-      <destinationCc>omar.bonilla@sophitech.mx</destinationCc>
+      <destinationCc>omar.bonilla@sophitech.mx alejandra.zuniga@sophitech.mx</destinationCc>
       <destinationBCc/>
       <replyto>soporte@sophitech.mx</replyto>
       <replytoname>Soporte Sophitech</replytoname>
@@ -580,7 +580,7 @@ Saludos!!!.</comment>
       <server>smtp.gmail.com</server>
       <port>465</port>
       <destination>david.moreno@sophitech.mx</destination>
-      <destinationCc>omar.bonilla@sophitech.mx</destinationCc>
+      <destinationCc>omar.bonilla@sophitech.mx alejandra.zuniga@sophitech.mx</destinationCc>
       <destinationBCc/>
       <replyto>soporte@sophitech.mx</replyto>
       <replytoname>Soporte Sophitech</replytoname>
@@ -629,7 +629,7 @@ Saludos!!!.</comment>
       <server>smtp.gmail.com</server>
       <port>465</port>
       <destination>david.moreno@sophitech.mx</destination>
-      <destinationCc>omar.bonilla@sophitech.mx</destinationCc>
+      <destinationCc>omar.bonilla@sophitech.mx alejandra.zuniga@sophitech.mx</destinationCc>
       <destinationBCc/>
       <replyto>soporte@sophitech.mx</replyto>
       <replytoname>Soporte Sophitech</replytoname>
@@ -678,7 +678,7 @@ Saludos!!!.</comment>
       <server>smtp.gmail.com</server>
       <port>465</port>
       <destination>david.moreno@sophitech.mx</destination>
-      <destinationCc>omar.bonilla@sophitech.mx</destinationCc>
+      <destinationCc>omar.bonilla@sophitech.mx alejandra.zuniga@sophitech.mx</destinationCc>
       <destinationBCc/>
       <replyto>soporte@sophitech.mx</replyto>
       <replytoname>Soporte Sophitech</replytoname>
@@ -764,7 +764,7 @@ Saludos!!!.</comment>
       <server>smtp.gmail.com</server>
       <port>465</port>
       <destination>david.moreno@sophitech.mx</destination>
-      <destinationCc>omar.bonilla@sophitech.mx</destinationCc>
+      <destinationCc>omar.bonilla@sophitech.mx alejandra.zuniga@sophitech.mx</destinationCc>
       <destinationBCc/>
       <replyto>soporte@sophitech.mx</replyto>
       <replytoname>Soporte Sophitech</replytoname>
