@@ -466,7 +466,7 @@ en alguna herramienta o conocimiento</note>
     <database>DWH_PSophitech</database>
     <port>1433</port>
     <username>dbetl</username>
-    <password>Encrypted 647768328fc1c19724d5a7acff47f53988c9f782</password>
+    <password>Encrypted 2be98afc86aa7f2a6a915ac218dc7ee85</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
