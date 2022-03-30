@@ -436,14 +436,14 @@
   <notepads>
   </notepads>
   <connection>
-    <name>TRA_SOPHITECH</name>
+    <name>TRA_PSOPHITECH</name>
     <server>34.132.85.42</server>
     <type>MSSQL</type>
     <access>Native</access>
     <database>TB_PlSophitech</database>
     <port>1433</port>
     <username>SA</username>
-    <password>Encrypted 2be98afc86aa7f2a6a915ac218dc7ee85</password>
+    <password>Encrypted 2be98afc86aa7f2e4b20d8859888bebcc</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -508,7 +508,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>TRA_SOPHITECH</connection>
+    <connection>TRA_PSOPHITECH</connection>
     <sql>SELECT * FROM RECURSOS_CAP_HORAS</sql>
     <limit>0</limit>
     <lookup/>
@@ -523,7 +523,7 @@
         <name>cod_cap_hora</name>
         <length>9</length>
         <precision>0</precision>
-        <origin>Table input</origin>
+        <origin>RECURSOS_CAP_HORAS</origin>
         <comments>cod_cap_hora</comments>
         <conversion_Mask>####0;-####0</conversion_Mask>
         <decimal_symbol>.</decimal_symbol>
@@ -546,7 +546,7 @@
         <name>cod_actividad</name>
         <length>9</length>
         <precision>0</precision>
-        <origin>Table input</origin>
+        <origin>RECURSOS_CAP_HORAS</origin>
         <comments>cod_actividad</comments>
         <conversion_Mask>####0;-####0</conversion_Mask>
         <decimal_symbol>.</decimal_symbol>
@@ -569,7 +569,7 @@
         <name>cod_recurso</name>
         <length>9</length>
         <precision>0</precision>
-        <origin>Table input</origin>
+        <origin>RECURSOS_CAP_HORAS</origin>
         <comments>cod_recurso</comments>
         <conversion_Mask>####0;-####0</conversion_Mask>
         <decimal_symbol>.</decimal_symbol>
@@ -592,7 +592,7 @@
         <name>desc_comentario_detalle</name>
         <length>500</length>
         <precision>-1</precision>
-        <origin>Table input</origin>
+        <origin>RECURSOS_CAP_HORAS</origin>
         <comments>desc_comentario_detalle</comments>
         <conversion_Mask/>
         <decimal_symbol>.</decimal_symbol>
@@ -615,7 +615,7 @@
         <name>fec_inicio_actividad</name>
         <length>10</length>
         <precision>-1</precision>
-        <origin>Table input</origin>
+        <origin>RECURSOS_CAP_HORAS</origin>
         <comments>fec_inicio_actividad</comments>
         <conversion_Mask/>
         <decimal_symbol>.</decimal_symbol>
@@ -638,7 +638,7 @@
         <name>fec_fin_actividad</name>
         <length>10</length>
         <precision>-1</precision>
-        <origin>Table input</origin>
+        <origin>RECURSOS_CAP_HORAS</origin>
         <comments>fec_fin_actividad</comments>
         <conversion_Mask/>
         <decimal_symbol>.</decimal_symbol>
@@ -661,7 +661,7 @@
         <name>fec_registro</name>
         <length>3</length>
         <precision>-1</precision>
-        <origin>Table input</origin>
+        <origin>RECURSOS_CAP_HORAS</origin>
         <comments>fec_registro</comments>
         <conversion_Mask/>
         <decimal_symbol>.</decimal_symbol>
@@ -684,7 +684,7 @@
         <name>cod_proyecto</name>
         <length>9</length>
         <precision>0</precision>
-        <origin>Table input</origin>
+        <origin>RECURSOS_CAP_HORAS</origin>
         <comments>cod_proyecto</comments>
         <conversion_Mask>####0;-####0</conversion_Mask>
         <decimal_symbol>.</decimal_symbol>
@@ -707,7 +707,7 @@
         <name>val_duracion_reportada</name>
         <length>15</length>
         <precision>-1</precision>
-        <origin>Table input</origin>
+        <origin>RECURSOS_CAP_HORAS</origin>
         <comments>val_duracion_reportada</comments>
         <conversion_Mask>####0.0#########;-####0.0#########</conversion_Mask>
         <decimal_symbol>.</decimal_symbol>
@@ -730,7 +730,7 @@
         <name>val_duracion_validada</name>
         <length>15</length>
         <precision>-1</precision>
-        <origin>Table input</origin>
+        <origin>RECURSOS_CAP_HORAS</origin>
         <comments>val_duracion_validada</comments>
         <conversion_Mask>####0.0#########;-####0.0#########</conversion_Mask>
         <decimal_symbol>.</decimal_symbol>
@@ -753,7 +753,7 @@
         <name>val_duracion_rechazada</name>
         <length>15</length>
         <precision>-1</precision>
-        <origin>Table input</origin>
+        <origin>RECURSOS_CAP_HORAS</origin>
         <comments>val_duracion_rechazada</comments>
         <conversion_Mask>####0.0#########;-####0.0#########</conversion_Mask>
         <decimal_symbol>.</decimal_symbol>
@@ -776,7 +776,7 @@
         <name>desc_rechazo</name>
         <length>500</length>
         <precision>-1</precision>
-        <origin>Table input</origin>
+        <origin>RECURSOS_CAP_HORAS</origin>
         <comments>desc_rechazo</comments>
         <conversion_Mask/>
         <decimal_symbol>.</decimal_symbol>
@@ -799,7 +799,7 @@
         <name>val_rechazo</name>
         <length>9</length>
         <precision>0</precision>
-        <origin>Table input</origin>
+        <origin>RECURSOS_CAP_HORAS</origin>
         <comments>val_rechazo</comments>
         <conversion_Mask>####0;-####0</conversion_Mask>
         <decimal_symbol>.</decimal_symbol>
@@ -822,7 +822,7 @@
         <name>cod_recurso_validador</name>
         <length>9</length>
         <precision>0</precision>
-        <origin>Table input</origin>
+        <origin>RECURSOS_CAP_HORAS</origin>
         <comments>cod_recurso_validador</comments>
         <conversion_Mask>####0;-####0</conversion_Mask>
         <decimal_symbol>.</decimal_symbol>
@@ -845,7 +845,7 @@
         <name>fec_validacion</name>
         <length>10</length>
         <precision>-1</precision>
-        <origin>Table input</origin>
+        <origin>RECURSOS_CAP_HORAS</origin>
         <comments>fec_validacion</comments>
         <conversion_Mask/>
         <decimal_symbol>.</decimal_symbol>
@@ -868,7 +868,7 @@
         <name>cod_cliente</name>
         <length>9</length>
         <precision>0</precision>
-        <origin>Table input</origin>
+        <origin>RECURSOS_CAP_HORAS</origin>
         <comments>cod_cliente</comments>
         <conversion_Mask>####0;-####0</conversion_Mask>
         <decimal_symbol>.</decimal_symbol>
@@ -891,7 +891,7 @@
         <name>val_nueva_actividad</name>
         <length>9</length>
         <precision>0</precision>
-        <origin>Table input</origin>
+        <origin>RECURSOS_CAP_HORAS</origin>
         <comments>val_nueva_actividad</comments>
         <conversion_Mask>####0;-####0</conversion_Mask>
         <decimal_symbol>.</decimal_symbol>
@@ -914,7 +914,7 @@
         <name>cod_estatus_proyecto</name>
         <length>9</length>
         <precision>0</precision>
-        <origin>Table input</origin>
+        <origin>RECURSOS_CAP_HORAS</origin>
         <comments>cod_estatus_proyecto</comments>
         <conversion_Mask>####0;-####0</conversion_Mask>
         <decimal_symbol>.</decimal_symbol>
@@ -957,7 +957,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>TRA_SOPHITECH</connection>
+    <connection>TRA_PSOPHITECH</connection>
     <schema>dbo</schema>
     <table>RECURSOS_CAP_HORAS_BKP</table>
     <commit>1000</commit>

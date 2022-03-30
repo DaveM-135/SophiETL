@@ -437,14 +437,14 @@
   <notepads>
   </notepads>
   <connection>
-    <name>DWH_SOPHITECH</name>
+    <name>DWH_PSophitech</name>
     <server>34.132.85.42</server>
     <type>MSSQL</type>
     <access>Native</access>
-    <database>DWH_PSophitech</database>
+    <database>DWH_PSOPHITECH</database>
     <port>1433</port>
     <username>SA</username>
-    <password>Encrypted 2be98afc86aa7f2a6a915ac218dc7ee85</password>
+    <password>Encrypted 2be98afc86aa7f2e4b20d8859888bebcc</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -509,7 +509,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>DWH_SOPHITECH</connection>
+    <connection>DWH_PSophitech</connection>
     <commit>100</commit>
     <update_bypassed>N</update_bypassed>
     <lookup>

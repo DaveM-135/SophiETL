@@ -457,14 +457,14 @@
     </notepad>
   </notepads>
   <connection>
-    <name>DWH_PSOPHITECH</name>
+    <name>DWH_PSophitech</name>
     <server>34.132.85.42</server>
     <type>MSSQL</type>
     <access>Native</access>
-    <database>DWH_PSophitech</database>
+    <database>DWH_PSOPHITECH</database>
     <port>1433</port>
     <username>SA</username>
-    <password>Encrypted 2be98afc86aa7f2a6a915ac218dc7ee85</password>
+    <password>Encrypted 2be98afc86aa7f2e4b20d8859888bebcc</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -512,14 +512,14 @@
     </attributes>
   </connection>
   <connection>
-    <name>TRA_PSOPHITEC</name>
+    <name>TRA_PSOPHITECH</name>
     <server>34.132.85.42</server>
     <type>MSSQL</type>
     <access>Native</access>
     <database>TB_PlSophitech</database>
     <port>1433</port>
     <username>SA</username>
-    <password>Encrypted 2be98afc86aa7f2a6a915ac218dc7ee85</password>
+    <password>Encrypted 2be98afc86aa7f2e4b20d8859888bebcc</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -584,7 +584,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>TRA_PSOPHITEC</connection>
+    <connection>TRA_PSOPHITECH</connection>
     <sql>SELECT * FROM CAT_SECTORES
 </sql>
     <limit>0</limit>
@@ -689,7 +689,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>DWH_PSOPHITECH</connection>
+    <connection>DWH_PSophitech</connection>
     <schema/>
     <table>STG_Sectores</table>
     <commit>1000</commit>

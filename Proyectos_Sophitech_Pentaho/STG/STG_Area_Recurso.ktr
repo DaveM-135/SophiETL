@@ -465,7 +465,7 @@
     <database>DWH_PSophitech</database>
     <port>1433</port>
     <username>SA</username>
-    <password>Encrypted 2be98afc86aa7f2a6a915ac218dc7ee85</password>
+    <password>Encrypted 2be98afc86aa7f2e4b20d8859888bebcc</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -520,7 +520,7 @@
     <database>TB_PlSophitech</database>
     <port>1433</port>
     <username>SA</username>
-    <password>Encrypted 2be98afc86aa7f2a6a915ac218dc7ee85</password>
+    <password>Encrypted 2be98afc86aa7f2e4b20d8859888bebcc</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
