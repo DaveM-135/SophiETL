@@ -572,7 +572,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>DWH_SOPHITECH</connection>
+    <connection>DWH_PSophitech</connection>
     <sql>SELECT * FROM STG_Recursos_trayectoria_nivel</sql>
     <limit>0</limit>
     <lookup/>

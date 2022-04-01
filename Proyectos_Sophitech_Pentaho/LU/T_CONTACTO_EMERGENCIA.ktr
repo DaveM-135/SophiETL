@@ -609,7 +609,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>DWH_PSophi</connection>
+    <connection>DWH_PSophitech</connection>
     <cache>N</cache>
     <cache_load_all>N</cache_load_all>
     <cache_size>0</cache_size>
