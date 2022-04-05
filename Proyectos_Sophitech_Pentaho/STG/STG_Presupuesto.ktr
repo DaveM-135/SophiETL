@@ -436,14 +436,14 @@
   <notepads>
   </notepads>
   <connection>
-    <name>DWH_PSOPHITECH</name>
+    <name>DWH_PSophitech</name>
     <server>34.132.85.42</server>
     <type>MSSQL</type>
     <access>Native</access>
-    <database>DWH_PSophitech</database>
+    <database>DWH_PSOPHITECH</database>
     <port>1433</port>
     <username>SA</username>
-    <password>Encrypted 2be98afc86aa7f2a6a915ac218dc7ee85</password>
+    <password>Encrypted 2be98afc86aa7f2e4b20d8859888bebcc</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -524,7 +524,7 @@
     <accept_field/>
     <accept_stepname/>
     <file>
-      <name>C:\Proyectos_Sophitech_Pentaho\Presupuesto.xlsx</name>
+      <name>C:\Users\HP\Documents\GitHub\SophiETL\Proyectos_Sophitech_Pentaho\Presupuesto.xlsx</name>
       <filemask/>
       <exclude_filemask/>
       <file_required>N</file_required>
@@ -548,7 +548,7 @@
         <type>String</type>
         <length>-1</length>
         <precision>-1</precision>
-        <trim_type>both</trim_type>
+        <trim_type>none</trim_type>
         <repeat>N</repeat>
         <format/>
         <currency/>
@@ -715,7 +715,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>DWH_PSOPHITECH</connection>
+    <connection>DWH_PSophitech</connection>
     <schema/>
     <table>STG_Presupuesto</table>
     <commit>1000</commit>
