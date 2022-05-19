@@ -14,13 +14,13 @@
     </parameters>
   <connection>
     <name>DWH_PSophitech</name>
-    <server>45.56.73.45</server>
+    <server>34.132.85.42</server>
     <type>MSSQL</type>
     <access>Native</access>
     <database>DWH_PSOPHITECH</database>
     <port>1433</port>
     <username>SA</username>
-    <password>Encrypted 2be98afc86aa7f2a6a915ac218dc7ee85</password>
+    <password>Encrypted 4f78535a5e394a324359385261463264385a7036344872426959697068764a644a30cefa899e2ac8a1a38758fe76d3b2f8ef</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -69,13 +69,13 @@
   </connection>
   <connection>
     <name>TRA_PSOPHITECH</name>
-    <server>45.56.73.45</server>
+    <server>34.132.85.42</server>
     <type>MSSQL</type>
     <access>Native</access>
     <database>TB_PlSophitech</database>
     <port>1433</port>
     <username>SA</username>
-    <password>Encrypted 2be98afc86aa7f2a6a915ac218dc7ee85</password>
+    <password>Encrypted 4f78535a5e394a324359385261463264385a7036344872426959697068764a644a30cefa899e2ac8a1a38758fe76d3b2f8ef</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -1003,7 +1003,7 @@ Saludos!!!.</comment>
       <to>Success</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
-      <enabled>Y</enabled>
+      <enabled>N</enabled>
       <evaluation>Y</evaluation>
       <unconditional>N</unconditional>
     </hop>
@@ -1012,7 +1012,7 @@ Saludos!!!.</comment>
       <to>MAIL_NOTIF STG</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
-      <enabled>Y</enabled>
+      <enabled>N</enabled>
       <evaluation>N</evaluation>
       <unconditional>N</unconditional>
     </hop>
@@ -1021,7 +1021,7 @@ Saludos!!!.</comment>
       <to>MAIL_NOTIF CAT FIJOS</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
-      <enabled>Y</enabled>
+      <enabled>N</enabled>
       <evaluation>N</evaluation>
       <unconditional>N</unconditional>
     </hop>
@@ -1030,7 +1030,7 @@ Saludos!!!.</comment>
       <to>MAIL_NOTIF CAT VARIABLES</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
-      <enabled>Y</enabled>
+      <enabled>N</enabled>
       <evaluation>N</evaluation>
       <unconditional>N</unconditional>
     </hop>
@@ -1039,7 +1039,7 @@ Saludos!!!.</comment>
       <to>MAIL_NOTIF HECHOS</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
-      <enabled>Y</enabled>
+      <enabled>N</enabled>
       <evaluation>N</evaluation>
       <unconditional>N</unconditional>
     </hop>
@@ -1057,7 +1057,7 @@ Saludos!!!.</comment>
       <to>MAIL_NOTIF</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
-      <enabled>Y</enabled>
+      <enabled>N</enabled>
       <evaluation>Y</evaluation>
       <unconditional>N</unconditional>
     </hop>
@@ -1066,7 +1066,7 @@ Saludos!!!.</comment>
       <to>MAIL_NOTIF TRANS POST ETL</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
-      <enabled>Y</enabled>
+      <enabled>N</enabled>
       <evaluation>N</evaluation>
       <unconditional>N</unconditional>
     </hop>
@@ -1100,6 +1100,15 @@ Saludos!!!.</comment>
     <hop>
       <from>Log Conexión a Base Establecida</from>
       <to>Job_CARGA_STG</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>CARGA_TRANS_POST_ETL</from>
+      <to>Success</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>

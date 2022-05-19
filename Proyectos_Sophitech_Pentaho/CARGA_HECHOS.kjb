@@ -472,7 +472,7 @@
       <attributes/>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>${Internal.Entry.Current.Directory}/F_PLANEACION_VS_SEGUIMIENTO.ktr</filename>
+      <filename>${Internal.Entry.Current.Directory}/Facts/F_PLANEACION_VS_SEGUIMIENTO.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
