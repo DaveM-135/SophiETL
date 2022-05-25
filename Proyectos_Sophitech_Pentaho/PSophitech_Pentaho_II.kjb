@@ -591,10 +591,10 @@
       <attributes/>
       <server>smtp.gmail.com</server>
       <port>465</port>
-      <destination>david.moreno@sophitech.mx</destination>
-      <destinationCc>omar.bonilla@sophitech.mx alejandra.zuniga@sophitech.mx</destinationCc>
+      <destination>omar.bonilla@sophitech.mx</destination>
+      <destinationCc>alejandra.zuniga@sophitech.mx</destinationCc>
       <destinationBCc/>
-      <replyto>soporte@sophitech.mx</replyto>
+      <replyto>david.moreno@sophitech.mx</replyto>
       <replytoname>Soporte Sophitech</replytoname>
       <subject>Notificación de Proceso ETL - Plataforma Sophitech</subject>
       <include_date>N</include_date>
@@ -610,8 +610,8 @@ Saludos!!!.</comment>
       <zip_name/>
       <use_auth>Y</use_auth>
       <use_secure_auth>Y</use_secure_auth>
-      <auth_user>soporte@sophitech.mx</auth_user>
-      <auth_password>Encrypted 2be989df85896adc2ed2afe298e80bb89</auth_password>
+      <auth_user>david.moreno@sophitech.mx</auth_user>
+      <auth_password>Encrypted 2be98afc86aa7a2aeb808a2218dc7ee85</auth_password>
       <only_comment>N</only_comment>
       <use_HTML>N</use_HTML>
       <use_Priority>N</use_Priority>
@@ -871,7 +871,7 @@ pause</script>
       <type>WRITE_TO_LOG</type>
       <attributes/>
       <logmessage>Ejecución ETL exitosa!</logmessage>
-      <loglevel/>
+      <loglevel>Basic</loglevel>
       <logsubject/>
       <parallel>N</parallel>
       <draw>Y</draw>
