@@ -17,7 +17,7 @@
     <server>34.132.85.42</server>
     <type>MSSQL</type>
     <access>Native</access>
-    <database>DWH_PSOPHITECH</database>
+    <database>DWH_PSophitech</database>
     <port>1433</port>
     <username>SA</username>
     <password>Encrypted 4f78535a5e394a324359385261463264385a7036344872426959697068764a644a30cefa899e2ac8a1a38758fe76d3b2f8ef</password>
@@ -543,8 +543,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>944</xloc>
-      <yloc>336</yloc>
+      <xloc>976</xloc>
+      <yloc>432</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -629,204 +629,8 @@ Saludos!!!.</comment>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>816</xloc>
-      <yloc>432</yloc>
-      <attributes_kjc/>
-    </entry>
-    <entry>
-      <name>MAIL_NOTIF STG</name>
-      <description/>
-      <type>MAIL</type>
-      <attributes/>
-      <server>smtp.gmail.com</server>
-      <port>465</port>
-      <destination>david.moreno@sophitech.mx</destination>
-      <destinationCc>omar.bonilla@sophitech.mx alejandra.zuniga@sophitech.mx</destinationCc>
-      <destinationBCc/>
-      <replyto>soporte@sophitech.mx</replyto>
-      <replytoname>Soporte Sophitech</replytoname>
-      <subject>Notificación de Proceso ETL - Plataforma Sophitech</subject>
-      <include_date>N</include_date>
-      <contact_person/>
-      <contact_phone/>
-      <comment>Hola
-
-Se notifica que ha ocurrido un error en el proceso de STG ETL Plataforma Sophitech.
-
-Saludos!!!.</comment>
-      <include_files>N</include_files>
-      <zip_files>N</zip_files>
-      <zip_name/>
-      <use_auth>Y</use_auth>
-      <use_secure_auth>Y</use_secure_auth>
-      <auth_user>soporte@sophitech.mx</auth_user>
-      <auth_password>Encrypted 2be989df85896adc2ed2afe298e80bb89</auth_password>
-      <only_comment>N</only_comment>
-      <use_HTML>N</use_HTML>
-      <use_Priority>N</use_Priority>
-      <encoding>UTF-8</encoding>
-      <priority>low</priority>
-      <importance>normal</importance>
-      <sensitivity>normal</sensitivity>
-      <secureconnectiontype>SSL</secureconnectiontype>
-      <replyToAddresses/>
-      <filetypes>
-        <filetype>GENERAL</filetype>
-      </filetypes>
-      <embeddedimages>
-      </embeddedimages>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>416</xloc>
-      <yloc>144</yloc>
-      <attributes_kjc/>
-    </entry>
-    <entry>
-      <name>MAIL_NOTIF CAT FIJOS</name>
-      <description/>
-      <type>MAIL</type>
-      <attributes/>
-      <server>smtp.gmail.com</server>
-      <port>465</port>
-      <destination>david.moreno@sophitech.mx</destination>
-      <destinationCc>omar.bonilla@sophitech.mx alejandra.zuniga@sophitech.mx</destinationCc>
-      <destinationBCc/>
-      <replyto>soporte@sophitech.mx</replyto>
-      <replytoname>Soporte Sophitech</replytoname>
-      <subject>Notificación de Proceso ETL - Plataforma Sophitech</subject>
-      <include_date>N</include_date>
-      <contact_person/>
-      <contact_phone/>
-      <comment>Hola
-
-Se notifica que ha ocurrido un error en el proceso de CAT FIJOS ETL Plataforma Sophitech.
-
-Saludos!!!.</comment>
-      <include_files>N</include_files>
-      <zip_files>N</zip_files>
-      <zip_name/>
-      <use_auth>Y</use_auth>
-      <use_secure_auth>Y</use_secure_auth>
-      <auth_user>soporte@sophitech.mx</auth_user>
-      <auth_password>Encrypted 2be989df85896adc2ed2afe298e80bb89</auth_password>
-      <only_comment>N</only_comment>
-      <use_HTML>N</use_HTML>
-      <use_Priority>N</use_Priority>
-      <encoding>UTF-8</encoding>
-      <priority>low</priority>
-      <importance>normal</importance>
-      <sensitivity>normal</sensitivity>
-      <secureconnectiontype>SSL</secureconnectiontype>
-      <replyToAddresses/>
-      <filetypes>
-        <filetype>GENERAL</filetype>
-      </filetypes>
-      <embeddedimages>
-      </embeddedimages>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>256</xloc>
-      <yloc>432</yloc>
-      <attributes_kjc/>
-    </entry>
-    <entry>
-      <name>MAIL_NOTIF CAT VARIABLES</name>
-      <description/>
-      <type>MAIL</type>
-      <attributes/>
-      <server>smtp.gmail.com</server>
-      <port>465</port>
-      <destination>david.moreno@sophitech.mx</destination>
-      <destinationCc>omar.bonilla@sophitech.mx alejandra.zuniga@sophitech.mx</destinationCc>
-      <destinationBCc/>
-      <replyto>soporte@sophitech.mx</replyto>
-      <replytoname>Soporte Sophitech</replytoname>
-      <subject>Notificación de Proceso ETL - Plataforma Sophitech</subject>
-      <include_date>N</include_date>
-      <contact_person/>
-      <contact_phone/>
-      <comment>Hola
-
-Se notifica que ha ocurrido un error en el proceso de CAT VARIABLES ETL Plataforma Sophitech.
-
-Saludos!!!.</comment>
-      <include_files>N</include_files>
-      <zip_files>N</zip_files>
-      <zip_name/>
-      <use_auth>Y</use_auth>
-      <use_secure_auth>Y</use_secure_auth>
-      <auth_user>soporte@sophitech.mx</auth_user>
-      <auth_password>Encrypted 2be989df85896adc2ed2afe298e80bb89</auth_password>
-      <only_comment>N</only_comment>
-      <use_HTML>N</use_HTML>
-      <use_Priority>N</use_Priority>
-      <encoding>UTF-8</encoding>
-      <priority>low</priority>
-      <importance>normal</importance>
-      <sensitivity>normal</sensitivity>
-      <secureconnectiontype>SSL</secureconnectiontype>
-      <replyToAddresses/>
-      <filetypes>
-        <filetype>GENERAL</filetype>
-      </filetypes>
-      <embeddedimages>
-      </embeddedimages>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>640</xloc>
-      <yloc>576</yloc>
-      <attributes_kjc/>
-    </entry>
-    <entry>
-      <name>MAIL_NOTIF HECHOS</name>
-      <description/>
-      <type>MAIL</type>
-      <attributes/>
-      <server>smtp.gmail.com</server>
-      <port>465</port>
-      <destination>david.moreno@sophitech.mx</destination>
-      <destinationCc>omar.bonilla@sophitech.mx alejandra.zuniga@sophitech.mx</destinationCc>
-      <destinationBCc/>
-      <replyto>soporte@sophitech.mx</replyto>
-      <replytoname>Soporte Sophitech</replytoname>
-      <subject>Notificación de Proceso ETL - Plataforma Sophitech</subject>
-      <include_date>N</include_date>
-      <contact_person/>
-      <contact_phone/>
-      <comment>Hola
-
-Se notifica que ha ocurrido un error en el proceso de HECHOS ETL Plataforma Sophitech.
-
-Saludos!!!.</comment>
-      <include_files>N</include_files>
-      <zip_files>N</zip_files>
-      <zip_name/>
-      <use_auth>Y</use_auth>
-      <use_secure_auth>Y</use_secure_auth>
-      <auth_user>soporte@sophitech.mx</auth_user>
-      <auth_password>Encrypted 2be989df85896adc2ed2afe298e80bb89</auth_password>
-      <only_comment>N</only_comment>
-      <use_HTML>N</use_HTML>
-      <use_Priority>N</use_Priority>
-      <encoding>UTF-8</encoding>
-      <priority>low</priority>
-      <importance>normal</importance>
-      <sensitivity>normal</sensitivity>
-      <secureconnectiontype>SSL</secureconnectiontype>
-      <replyToAddresses/>
-      <filetypes>
-        <filetype>GENERAL</filetype>
-      </filetypes>
-      <embeddedimages>
-      </embeddedimages>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>640</xloc>
-      <yloc>144</yloc>
+      <xloc>976</xloc>
+      <yloc>288</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -867,55 +671,6 @@ Saludos!!!.</comment>
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>MAIL_NOTIF TRANS POST ETL</name>
-      <description/>
-      <type>MAIL</type>
-      <attributes/>
-      <server>smtp.gmail.com</server>
-      <port>465</port>
-      <destination>david.moreno@sophitech.mx</destination>
-      <destinationCc>omar.bonilla@sophitech.mx alejandra.zuniga@sophitech.mx</destinationCc>
-      <destinationBCc/>
-      <replyto>soporte@sophitech.mx</replyto>
-      <replytoname>Soporte Sophitech</replytoname>
-      <subject>Notificación de Proceso ETL - Plataforma Sophitech</subject>
-      <include_date>N</include_date>
-      <contact_person/>
-      <contact_phone/>
-      <comment>Hola
-
-Se notifica que ha ocurrido un error en el proceso de CARTA TRANS POST ETL Plataforma Sophitech.
-
-Saludos!!!.</comment>
-      <include_files>N</include_files>
-      <zip_files>N</zip_files>
-      <zip_name/>
-      <use_auth>Y</use_auth>
-      <use_secure_auth>Y</use_secure_auth>
-      <auth_user>soporte@sophitech.mx</auth_user>
-      <auth_password>Encrypted 2be989df85896adc2ed2afe298e80bb89</auth_password>
-      <only_comment>N</only_comment>
-      <use_HTML>N</use_HTML>
-      <use_Priority>N</use_Priority>
-      <encoding>UTF-8</encoding>
-      <priority>low</priority>
-      <importance>normal</importance>
-      <sensitivity>normal</sensitivity>
-      <secureconnectiontype>SSL</secureconnectiontype>
-      <replyToAddresses/>
-      <filetypes>
-        <filetype>GENERAL</filetype>
-      </filetypes>
-      <embeddedimages>
-      </embeddedimages>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>816</xloc>
-      <yloc>144</yloc>
-      <attributes_kjc/>
-    </entry>
-    <entry>
       <name>Check DB connections</name>
       <description/>
       <type>CHECK_DB_CONNECTIONS</type>
@@ -940,13 +695,76 @@ Saludos!!!.</comment>
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Write to log</name>
+      <name>Shell Falló STG</name>
       <description/>
-      <type>WRITE_TO_LOG</type>
+      <type>SHELL</type>
       <attributes/>
-      <logmessage>Conexión fallida a Base de Datos</logmessage>
+      <filename/>
+      <work_directory/>
+      <arg_from_previous>N</arg_from_previous>
+      <exec_per_row>N</exec_per_row>
+      <set_logfile>N</set_logfile>
+      <logfile/>
+      <set_append_logfile>N</set_append_logfile>
+      <logext/>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <insertScript>Y</insertScript>
+      <script>echo Falló carga de tablas STG!
+pause</script>
       <loglevel>Basic</loglevel>
-      <logsubject/>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>416</xloc>
+      <yloc>144</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Shell Falló Cat Fijos</name>
+      <description/>
+      <type>SHELL</type>
+      <attributes/>
+      <filename/>
+      <work_directory/>
+      <arg_from_previous>N</arg_from_previous>
+      <exec_per_row>N</exec_per_row>
+      <set_logfile>N</set_logfile>
+      <logfile/>
+      <set_append_logfile>N</set_append_logfile>
+      <logext/>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <insertScript>Y</insertScript>
+      <script>echo Falló carga de catálogos fijos
+pause</script>
+      <loglevel>Basic</loglevel>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>224</xloc>
+      <yloc>432</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Shell Falló Conexión</name>
+      <description/>
+      <type>SHELL</type>
+      <attributes/>
+      <filename/>
+      <work_directory/>
+      <arg_from_previous>N</arg_from_previous>
+      <exec_per_row>N</exec_per_row>
+      <set_logfile>N</set_logfile>
+      <logfile/>
+      <set_append_logfile>N</set_append_logfile>
+      <logext/>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <insertScript>Y</insertScript>
+      <script>echo Falló la conexión a Base de Datos
+pause</script>
+      <loglevel>Basic</loglevel>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
@@ -955,18 +773,111 @@ Saludos!!!.</comment>
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Log Conexión a Base Establecida</name>
+      <name>Shell Falló Cat Variables</name>
+      <description/>
+      <type>SHELL</type>
+      <attributes/>
+      <filename/>
+      <work_directory/>
+      <arg_from_previous>N</arg_from_previous>
+      <exec_per_row>N</exec_per_row>
+      <set_logfile>N</set_logfile>
+      <logfile/>
+      <set_append_logfile>N</set_append_logfile>
+      <logext/>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <insertScript>Y</insertScript>
+      <script>echo Falló carga de catálogos variables
+pause</script>
+      <loglevel>Basic</loglevel>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>640</xloc>
+      <yloc>544</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Shell Falló Carga Hechos</name>
+      <description/>
+      <type>SHELL</type>
+      <attributes/>
+      <filename/>
+      <work_directory/>
+      <arg_from_previous>N</arg_from_previous>
+      <exec_per_row>N</exec_per_row>
+      <set_logfile>N</set_logfile>
+      <logfile/>
+      <set_append_logfile>N</set_append_logfile>
+      <logext/>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <insertScript>Y</insertScript>
+      <script>echo Falló carga de hechos
+pause</script>
+      <loglevel>Basic</loglevel>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>640</xloc>
+      <yloc>144</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Shell Falló Carga Post ETL</name>
+      <description/>
+      <type>SHELL</type>
+      <attributes/>
+      <filename/>
+      <work_directory/>
+      <arg_from_previous>N</arg_from_previous>
+      <exec_per_row>N</exec_per_row>
+      <set_logfile>N</set_logfile>
+      <logfile/>
+      <set_append_logfile>N</set_append_logfile>
+      <logext/>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <insertScript>Y</insertScript>
+      <script>echo Falló carga post ETL
+pause</script>
+      <loglevel>Basic</loglevel>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>816</xloc>
+      <yloc>144</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Write to log</name>
       <description/>
       <type>WRITE_TO_LOG</type>
       <attributes/>
       <logmessage>Conexión a Base de Datos Establecida</logmessage>
-      <loglevel>Basic</loglevel>
+      <loglevel>Detailed</loglevel>
       <logsubject/>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>224</xloc>
       <yloc>272</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Write to log Terminó Ejecución ETL</name>
+      <description/>
+      <type>WRITE_TO_LOG</type>
+      <attributes/>
+      <logmessage>Ejecución ETL exitosa!</logmessage>
+      <loglevel/>
+      <logsubject/>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>816</xloc>
+      <yloc>432</yloc>
       <attributes_kjc/>
     </entry>
   </entries>
@@ -1003,44 +914,8 @@ Saludos!!!.</comment>
       <to>Success</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
-      <enabled>N</enabled>
+      <enabled>Y</enabled>
       <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Job_CARGA_STG</from>
-      <to>MAIL_NOTIF STG</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>N</enabled>
-      <evaluation>N</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Job_CARGA_CAT_FIJOS</from>
-      <to>MAIL_NOTIF CAT FIJOS</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>N</enabled>
-      <evaluation>N</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Job_CARGA_CAT_VARIABLES</from>
-      <to>MAIL_NOTIF CAT VARIABLES</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>N</enabled>
-      <evaluation>N</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Job_CARGA_HECHOS</from>
-      <to>MAIL_NOTIF HECHOS</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>N</enabled>
-      <evaluation>N</evaluation>
       <unconditional>N</unconditional>
     </hop>
     <hop>
@@ -1053,24 +928,6 @@ Saludos!!!.</comment>
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>CARGA_TRANS_POST_ETL</from>
-      <to>MAIL_NOTIF</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>N</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>CARGA_TRANS_POST_ETL</from>
-      <to>MAIL_NOTIF TRANS POST ETL</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>N</enabled>
-      <evaluation>N</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
       <from>Start</from>
       <to>Check DB connections</to>
       <from_nr>0</from_nr>
@@ -1080,8 +937,17 @@ Saludos!!!.</comment>
       <unconditional>Y</unconditional>
     </hop>
     <hop>
-      <from>Check DB connections</from>
-      <to>Write to log</to>
+      <from>Job_CARGA_STG</from>
+      <to>Shell Falló STG</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>N</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Job_CARGA_CAT_FIJOS</from>
+      <to>Shell Falló Cat Fijos</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -1090,7 +956,43 @@ Saludos!!!.</comment>
     </hop>
     <hop>
       <from>Check DB connections</from>
-      <to>Log Conexión a Base Establecida</to>
+      <to>Shell Falló Conexión</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>N</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Job_CARGA_CAT_VARIABLES</from>
+      <to>Shell Falló Cat Variables</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>N</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Job_CARGA_HECHOS</from>
+      <to>Shell Falló Carga Hechos</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>N</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>CARGA_TRANS_POST_ETL</from>
+      <to>Shell Falló Carga Post ETL</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>N</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Check DB connections</from>
+      <to>Write to log</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -1098,7 +1000,7 @@ Saludos!!!.</comment>
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>Log Conexión a Base Establecida</from>
+      <from>Write to log</from>
       <to>Job_CARGA_STG</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
@@ -1108,7 +1010,16 @@ Saludos!!!.</comment>
     </hop>
     <hop>
       <from>CARGA_TRANS_POST_ETL</from>
-      <to>Success</to>
+      <to>Write to log Terminó Ejecución ETL</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Write to log Terminó Ejecución ETL</from>
+      <to>MAIL_NOTIF</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
